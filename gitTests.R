@@ -6,3 +6,8 @@ del_dels <- function(x,y){
   del_dels <- gsub(x, "", add_adds)
   return(del_dels)
 }
+
+add_adds <- function(x,y){
+  add_adds <- paste(x,y)
+  return(add_adds)
+}
